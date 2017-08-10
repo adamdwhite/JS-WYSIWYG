@@ -1,0 +1,54 @@
+body {
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+#cardArea {
+    min-height: 1000px;
+    min-width: 90%;
+    background-color: white;
+    border: 2px inset darkolivegreen;
+    border-radius: 1px;
+    padding: 30px;
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+#inputField {
+    width: 25em;
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+.eachCard {
+    background-color: whitesmoke;
+    border: 2px inset olive;
+    border-radius: 1px;
+    padding: 15px;
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+img {
+    flex: display-flex;
+    max-width: 175px;
+    max-height: 200px;
+    border: 1px solid darkolivegreen;
+    border-radius: 50%;
+}
+
+.eachCard:nth-of-type(even) {
+    background: lightblue;
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+.eachCard:nth-of-type(odd) {
+    background: lightyellow;
+    font-family: 'Reem Kufi';
+    font-size: 1em;
+}
+
+.selectedCard {
+    border: 3px dotted darkred;
+}
